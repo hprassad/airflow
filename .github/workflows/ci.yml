@@ -26,7 +26,7 @@ on:  # yamllint disable-line rule:truthy
       - providers-[a-z]+-?[a-z]*/v[0-9]+-[0-9]+
   pull_request:
     branches:
-      - main
+      - rename-fail_stop-DAG-property-to-fail_fast
       - v[0-9]+-[0-9]+-test
       - v[0-9]+-[0-9]+-stable
       - providers-[a-z]+-?[a-z]*/v[0-9]+-[0-9]+
